@@ -55,12 +55,12 @@ int main(){
     printf("\nThe values: \n");
     for(auto x: values){
         sum += x;
-        printf("%f meter(s)\n", x);
+        printf("%.2f meter(s)\n", x);
     }
-    printf("\n\nThe smallest number: %f meter(s).\n", min);
-    printf("The largest number: %f meter(s).\n", max);
+    printf("\n\nThe smallest number: %.2f meter(s).\n", min);
+    printf("The largest number: %.2f meter(s).\n", max);
     printf("The number of values: %li.\n", values.size());
-    printf("The sum of values: %f meter(s).\n", sum);
+    printf("The sum of values: %.2f meter(s).\n", sum);
 
 
     return 0;
