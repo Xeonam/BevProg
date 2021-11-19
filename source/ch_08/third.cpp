@@ -1,5 +1,5 @@
 #include <iostream>
-namespace X{
+namespace X{ // X nevű névtér létrehozása
     int var = 0;
     void print(){
         std::cout << var << '\n';
